@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1434321088, guid: afbf832bc46149f5a291e87cab63e46d, type: 3}
+  m_Name: RuleConfig
+  m_EditorClassIdentifier: 
+  projectRules:
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.UICanvasChildElementValidator,
+      Sirenix.OdinValidator.Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|Sirenix.OdinValidator.Editor.Validators.UICanvasChildElementValidator,
+      Sirenix.OdinValidator.Editor\",\r\n    \"ValidatorSeverity\": 1,\r\n    \"UILayers\":
+      {\r\n        \"$id\": 1,\r\n        \"$type\": \"1|System.Collections.Generic.List`1[[System.String,
+      mscorlib]], mscorlib\",\r\n        \"$rlength\": 1,\r\n        \"$rcontent\":
+      [\r\n            \"UI\"\r\n        ]\r\n    }\r\n}"
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.ShaderCompilerErrorsValidator,
+      Sirenix.OdinValidator.Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|Sirenix.OdinValidator.Editor.Validators.ShaderCompilerErrorsValidator,
+      Sirenix.OdinValidator.Editor\",\r\n    \"ErrorSeverity\": 0,\r\n    \"WarningSeverity\":
+      1,\r\n    \"IgnoredShaders\": {\r\n        \"$id\": 1,\r\n        \"$type\":
+      \"1|UnityEngine.Shader[], UnityEngine.CoreModule\",\r\n        \"$rlength\":
+      0,\r\n        \"$rcontent\": [\r\n        ]\r\n    }\r\n}"
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.ReferenceRequiredByDefaultValidator,
+      Sirenix.OdinValidator.Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|Sirenix.OdinValidator.Editor.Validators.ReferenceRequiredByDefaultValidator,
+      Sirenix.OdinValidator.Editor\",\r\n    \"ValidatorSeverity\": 0,\r\n    \"IncludeAllByDefault\":
+      false,\r\n    \"IncludedNamespaces\": {\r\n        \"$id\": 1,\r\n        \"$type\":
+      \"1|System.String[], mscorlib\",\r\n        \"$rlength\": 0,\r\n        \"$rcontent\":
+      [\r\n        ]\r\n    },\r\n    \"ExcludedNamespaces\": {\r\n        \"$id\":
+      2,\r\n        \"$type\": 1,\r\n        \"$rlength\": 0,\r\n        \"$rcontent\":
+      [\r\n        ]\r\n    }\r\n}"
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.NoEmptyStringsValidator, Sirenix.OdinValidator.Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|Sirenix.OdinValidator.Editor.Validators.NoEmptyStringsValidator,
+      Sirenix.OdinValidator.Editor\",\r\n    \"ValidatorSeverity\": 0,\r\n    \"IncludeAllByDefault\":
+      false,\r\n    \"IncludedNamespaces\": {\r\n        \"$id\": 1,\r\n        \"$type\":
+      \"1|System.String[], mscorlib\",\r\n        \"$rlength\": 0,\r\n        \"$rcontent\":
+      [\r\n        ]\r\n    },\r\n    \"ExcludedNamespaces\": {\r\n        \"$id\":
+      2,\r\n        \"$type\": 1,\r\n        \"$rlength\": 0,\r\n        \"$rcontent\":
+      [\r\n        ]\r\n    }\r\n}"
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.ListNullElementValidator, Sirenix.OdinValidator.Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|Sirenix.OdinValidator.Editor.Validators.ListNullElementValidator,
+      Sirenix.OdinValidator.Editor\",\r\n    \"ValidatorSeverity\": 1\r\n}"
