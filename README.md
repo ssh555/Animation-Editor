@@ -1,4 +1,6 @@
-一. 动画配置窗口总览
+# Animation-Editor
+详情见：Animation使用文档.docx
+# 动画配置窗口总览
     1. AnimationAsset
     2. AnimationWindow
     3. PreviewWindow
@@ -6,7 +8,7 @@
     5. DetailWindow
     6. 保存
 
-二. 动画资产配置
+# 动画资产配置
     Section
         功能说明
             功能
@@ -15,7 +17,7 @@
             1. 配置
             2. 预览
         代码使用
-            共享|不共享
+        共享|不共享
     1. Clip Transition -> 单个动画ClipTransiton
     2. Clip Transition Sequence -> 逐个播放的单个动画Transition
     3. ManualMixerTransition -> 手动混合
@@ -26,7 +28,7 @@
     8. BooleanMixerTransition -> 布尔混合
     9. IntegerMixerTransition -> 整型混合
 
-三. 动画组件
+# 动画组件
     Section
         功能描述[官方API链接]
         代码使用
@@ -37,7 +39,7 @@
     4. SoloAnimation
     5. Animation Finite State Machine
 
-四. 扩展
+# 扩展
     1. AnimancerComponent扩展
     2. ITransition扩展
         Section
@@ -51,4 +53,3 @@
         3. AnimationAsset
 
 
-# Animation-Editor
